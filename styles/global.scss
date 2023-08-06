@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	@apply p-0 m-0;
+}
+
+html {
+	@apply scroll-smooth;
+}
+
+.react-svg {
+	@apply w-full;
+	svg {
+		@apply w-full h-full;
+	}
+}
